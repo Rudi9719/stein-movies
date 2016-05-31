@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from api.baseApi import BaseApi
 from api.error import Error
-from frameworks.bottle import Bottle, response, static_file
+from frameworks.bottle import Bottle, response, static_file, request
 from api.appleTv import AppleTV
 import sqlite3
 import constants
@@ -26,9 +26,11 @@ class MovieApi(BaseApi):
         movie = (title, genre, description, filename)
         conn = constants.mdb_conn
         cur = constants.mdb_cur
-        cur.execute("INSERT INTO Movies VALUES (?, ?, ?, ?)", movie)
-        conn.commit()
-        if os.path.isfile('/movies/' + genre + '/' + filename):
+        file = '/movies/' + genre + '/' + filename + '.mp4'
+        print(file)
+        if os.path.isfile(file):
+            cur.execute("INSERT INTO Movies VALUES (?, ?, ?, ?)", movie)
+            conn.commit()
             return dict(code=200, message="Movie posted! Thank you!", valid=True)
         else:
             return dict(code=404, message="File not found. Please re-upload the movie before posting again.", valid=True)

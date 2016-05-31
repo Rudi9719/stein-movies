@@ -11,4 +11,4 @@ class HomeController(BaseController):
         pass
 
     def movies_by_genre(self, genre):
-        return template('home/category', category=genre)
+        return template('home/category', genre=genre)

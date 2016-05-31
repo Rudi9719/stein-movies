@@ -4,8 +4,11 @@
 <main class="mdl-layout__content mdl-color--grey-100">
     
     <div class="mdl-grid demo-content">
-        
-        % for movie in constants.mdb_cur.execute("SELECT * FROM Movies WHERE Genre=? ORDER BY Title", {{category}}):
+        % term = (genre,)
+        % print term
+        % for movie in constants.mdb_cur.execute('SELECT * FROM Movies WHERE Genre=?  ORDER BY Title', term):
+        %    print(movie)
+        %
         %    include('views/partials/card', genre=movie[1], title=movie[0], Movie_Description=movie[2], filename=movie[3])
         % end
         
