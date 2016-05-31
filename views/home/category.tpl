@@ -4,11 +4,11 @@
 <main class="mdl-layout__content mdl-color--grey-100">
     
     <div class="mdl-grid demo-content">
-
-       % for movie in constants.mdb_cur.execute("SELECT * FROM Movies ORDER BY Genre"):
-       %    include('views/partials/card', genre=movie[1], title=movie[0], Movie_Description=movie[2], filename=movie[3])
-       % end
-    
+        
+        % for movie in constants.mdb_cur.execute("SELECT * FROM Movies WHERE Genre=? ORDER BY Title", {{category}}):
+        %    include('views/partials/card', genre=movie[1], title=movie[0], Movie_Description=movie[2], filename=movie[3])
+        % end
+        
 </main>
 </div>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="position: fixed; left: -1000px; height: -1000px;">

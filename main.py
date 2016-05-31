@@ -49,7 +49,7 @@ def main():
     
     # Web routes
     app.route("/", method="GET", callback=home_controller.index)
-   
+    app.route("/web/movies/<genre>", method="GET", callback=home_controller.movies_by_genre)
     # Movie Routes
     
     app.route("/movies/<genre>/<movie>", method="GET", callback=movie_api.movie_genre)
