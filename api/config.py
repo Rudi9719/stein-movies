@@ -16,8 +16,18 @@ class ConfigApi(BaseApi):
     def initialize_server(self):
         conn = constants.mdb_conn
         cur = constants.mdb_cur
-        cur.execute("CREATE TABLE Movies(Title TEXT, Genre TEXT, Description TEXT, filename TEXT)")
-        cur.execute("CREATE TABLE Genres(Name TEXT)")
+        
+        movies = (
+                  ("Captain America: The Winter Soldier", "Marvel", "None", "WinterSoldier"),
+                  ("Deadpool", "Marvel", "None", "Deadpool"),
+                  ("Ouija", "Horror", "None", "Ouija"),
+                  ("Sinister 2", "Horror", "None", "Sinister2"),
+                  ("The Babadook", "Horror", "None", "TheBabadook"),
+                  ("The Visit", "Horror", "None", "Visit"),
+                  ("The Boy Next Door", "Horror", "None", "TheBoyNextDoor"),
+                  ("The Woman in Black", "Horror", "None", "WomanInBlack")
+            )
+        cur.executemany("INSERT INTO Movies VALUES(?, ?, ?, ?)", (movies))
         conn.commit()
 
 

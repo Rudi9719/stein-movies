@@ -27,12 +27,12 @@ class MovieApi(BaseApi):
         conn = constants.mdb_conn
         cur = constants.mdb_cur
         file = '/movies/' + genre + '/' + filename + '.mp4'
-        print(file)
+        
         if os.path.isfile(file):
             cur.execute("INSERT INTO Movies VALUES (?, ?, ?, ?)", movie)
             conn.commit()
             return dict(code=200, message="Movie posted! Thank you!", valid=True)
         else:
-            return dict(code=404, message="File not found. Please re-upload the movie before posting again.", valid=True)
+            return dict(code=404, message="File not found. Please re-upload the movie before posting again. Please ensure file is valid .mp4 format.", valid=True)
 
 
