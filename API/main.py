@@ -47,6 +47,7 @@ def main():
     # API Routes
     app.route("/api/movies/add/movie/<genre>", method="POST", callback=movie_api.post_movie)
     
+    
     # Web routes
     app.route("/", method="GET", callback=home_controller.index)
     app.route("/web/movies/<genre>", method="GET", callback=home_controller.movies_by_genre)
