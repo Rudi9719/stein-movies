@@ -2,7 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31c6163-aa1b-4d2c-8824-7542991cf5a8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/data/movie_db" afterPath="$PROJECT_DIR$/API/data/movie_db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/movie.xcodeproj/project.xcworkspace/xcuserdata/gregory.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/API/movie.xcodeproj/project.xcworkspace/xcuserdata/gregory.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/views/home/images/android-desktop.png" afterPath="$PROJECT_DIR$/API/views/home/images/android-desktop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/views/home/images/dog.png" afterPath="$PROJECT_DIR$/API/views/home/images/dog.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/views/home/images/favicon.png" afterPath="$PROJECT_DIR$/API/views/home/images/favicon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/views/home/images/ios-desktop.png" afterPath="$PROJECT_DIR$/API/views/home/images/ios-desktop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/views/home/images/user.jpg" afterPath="$PROJECT_DIR$/API/views/home/images/user.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader.xcodeproj/project.xcworkspace/xcuserdata/gregory.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader.xcodeproj/project.xcworkspace/xcuserdata/gregory.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/stein-movies.iml" afterPath="$PROJECT_DIR$/.idea/stein-movies.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/README.md" afterPath="$PROJECT_DIR$/API/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/api/appleTv.py" afterPath="$PROJECT_DIR$/API/api/appleTv.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/api/baseApi.py" afterPath="$PROJECT_DIR$/API/api/baseApi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/api/config.py" afterPath="$PROJECT_DIR$/API/api/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/api/movie.py" afterPath="$PROJECT_DIR$/API/api/movie.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/constants.py" afterPath="$PROJECT_DIR$/API/constants.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/controller/static.py" afterPath="$PROJECT_DIR$/API/controller/static.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/main.py" afterPath="$PROJECT_DIR$/API/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/movie.xcodeproj/xcuserdata/gregory.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/API/movie.xcodeproj/xcuserdata/gregory.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/movie.xcodeproj/xcuserdata/gregory.xcuserdatad/xcschemes/base-api.xcscheme" afterPath="$PROJECT_DIR$/API/movie.xcodeproj/xcuserdata/gregory.xcuserdatad/xcschemes/base-api.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/static/styles.css" afterPath="$PROJECT_DIR$/API/static/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/views/home/category.tpl" afterPath="$PROJECT_DIR$/API/views/home/category.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/views/home/footer.tpl" afterPath="$PROJECT_DIR$/API/views/home/footer.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/views/home/header.tpl" afterPath="$PROJECT_DIR$/API/views/home/header.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/views/layout.tpl" afterPath="$PROJECT_DIR$/API/views/layout.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/views/partials/card.tpl" afterPath="$PROJECT_DIR$/API/views/partials/card.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/views/partials/sidebar.tpl" afterPath="$PROJECT_DIR$/API/views/partials/sidebar.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/views/partials/topbar.tpl" afterPath="$PROJECT_DIR$/API/views/partials/topbar.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader.xcodeproj/xcuserdata/gregory.xcuserdatad/xcschemes/Movie Uploader.xcscheme" afterPath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader.xcodeproj/xcuserdata/gregory.xcuserdatad/xcschemes/Movie Uploader.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader.xcodeproj/xcuserdata/gregory.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader.xcodeproj/xcuserdata/gregory.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader/AppDelegate.swift" afterPath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader/AppDelegate.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader/Base.lproj/Main.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader/Info.plist" afterPath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader/ViewController.swift" afterPath="$PROJECT_DIR$/macOS/Movie Uploader/Movie Uploader/ViewController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macOS/Movie Uploader/Movie UploaderTests/Info.plist" afterPath="$PROJECT_DIR$/macOS/Movie Uploader/Movie UploaderTests/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macOS/Movie Uploader/Movie UploaderTests/Movie_UploaderTests.swift" afterPath="$PROJECT_DIR$/macOS/Movie Uploader/Movie UploaderTests/Movie_UploaderTests.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macOS/Movie Uploader/Movie UploaderUITests/Info.plist" afterPath="$PROJECT_DIR$/macOS/Movie Uploader/Movie UploaderUITests/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/macOS/Movie Uploader/Movie UploaderUITests/Movie_UploaderUITests.swift" afterPath="$PROJECT_DIR$/macOS/Movie Uploader/Movie UploaderUITests/Movie_UploaderUITests.swift" />
     </list>
     <ignored path="stein-movies.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,12 +66,12 @@
     <favorites_list name="stein-movies" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="appleTv.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/appleTv.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/API/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -38,9 +82,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/API/main.py" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="401" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
+    <option name="width" value="1519" />
     <option name="height" value="1106" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -68,7 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -98,12 +149,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
+              <option name="myItemId" value="API" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -125,24 +177,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1106" extended-state="6" />
-    <editor active="true" />
+    <frame x="401" y="23" width="1519" height="1106" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19092123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -155,10 +207,19 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/appleTv.py">
+    <entry file="file://$PROJECT_DIR$/API/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/appleTv.py" />
+    <entry file="file://$PROJECT_DIR$/API/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding />
         </state>
       </provider>

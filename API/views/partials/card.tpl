@@ -7,7 +7,7 @@
             {{Movie_Description}}
         </div>
         <div class="mdl-card__actions mdl-card--border">
-<a href="/movies/{{genre}}/{{filename}}" class="mdl-button mdl-js-button mdl-js-ripple-effect">Watch Movie</a>
+<a href="/movies/watch/{{filename}}" class="mdl-button mdl-js-button mdl-js-ripple-effect">Watch Movie</a>
         </div>
     </div>
     <div class="demo-separator mdl-cell--1-col"></div>

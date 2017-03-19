@@ -21,7 +21,6 @@ config_api = ConfigApi()
 home_controller = HomeController()
 static_controller = StaticController()
 
-
 #Handle errors
 @app.error(code=400)
 @app.error(code=401)
@@ -40,20 +39,20 @@ def handle_error(error):
 def main():
     # Static Routes - /static/styles.css
     app.route("/static/<filename>", method="GET", callback=static_controller.file)
-    
+    app.route
     # Configuration
     app.route("/config/setup", method="GET", callback=config_api.initialize_server)
 
     # API Routes
     app.route("/api/movies/add/movie/<genre>", method="POST", callback=movie_api.post_movie)
-    
+
     
     # Web routes
     app.route("/", method="GET", callback=home_controller.index)
     app.route("/web/movies/<genre>", method="GET", callback=home_controller.movies_by_genre)
     # Movie Routes
     
-    app.route("/movies/<genre>/<movie>", method="GET", callback=movie_api.movie_genre)
+    app.route("/movies/watch/<movie>", method="GET", callback=movie_api.watch_movie)
    
    
    # In order to change port to 80, you must first run as sudo

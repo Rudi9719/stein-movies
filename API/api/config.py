@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import sqlite3
 import constants
-import os.path
+import glob, os
 from api.baseApi import BaseApi
 from api.error import Error
 from frameworks.bottle import Bottle, response, static_file
@@ -16,18 +16,10 @@ class ConfigApi(BaseApi):
     def initialize_server(self):
         conn = constants.mdb_conn
         cur = constants.mdb_cur
-        
-        movies = (
-                  ("Captain America: The Winter Soldier", "Marvel", "None", "WinterSoldier"),
-                  ("Deadpool", "Marvel", "None", "Deadpool"),
-                  ("Ouija", "Horror", "None", "Ouija"),
-                  ("Sinister 2", "Horror", "None", "Sinister2"),
-                  ("The Babadook", "Horror", "None", "TheBabadook"),
-                  ("The Visit", "Horror", "None", "Visit"),
-                  ("The Boy Next Door", "Horror", "None", "TheBoyNextDoor"),
-                  ("The Woman in Black", "Horror", "None", "WomanInBlack")
-            )
-        cur.executemany("INSERT INTO Movies VALUES(?, ?, ?, ?)", (movies))
+        os.chdir("/movies")
+        for file in glob.glob("*.mp4"):
+            movie = (file[:-4], "Unclassified", "None", file)
+            cur.execute("INSERT INTO Movies VALUES(?, ?, ?, ?)", (movie))
         conn.commit()
 
 

@@ -13,12 +13,16 @@ class MovieApi(BaseApi):
     def __init__(self):
         pass
 
-    def movie_genre(self, genre, movie):
-        return static_file(movie + '.mp4', root='/movies/' + genre)
+    def watch_movie(self, movie):
+        return static_file(movie, root='/movies')
 
     def get_apple_tv(self, genre):
         return apple_tv_api.page_for_genre(genre)
 
+
+    def get_movie(self, genre, movie):
+        pass
+    # Must be redone
     def post_movie(self, genre):
         title = request.json.get("title")
         description = request.json.get("desc")
